@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  </link>
+  <title>LoginPage</title>
+</head>
+<body>
+  <section id="login" class="content-wrapper">
+    <div class="content">
+      <header>
+       <h1 class="clearvoice">Clear Voice</h1>
+       <h2 class="loginheader">Welcome to ClearVoice</h2>
+      </header>
+      <div class="row collapse">
+          <div class="columns medium-9 medium-centered">
+            <form action="process.php" method="POST">
+               <div>
+                   <label for="identity_email">Email</label>
+                   <input autofocus="autofocus" placeholder="Email" type="email" name="identity[email]" id="identity_email">
+               </div>
+               <br>
+               <div>
+                   <label><h1>Password</h1></label>
+                   <br>
+                   <input type="text" password = "password" placeholder="password">
+               </div>
+               <br>
+               <div>
+                 <button>Login</button>
+               </div>
+               <br>
+               <div>
+             	     <a href="forgotpassword.html"> forgot password? </a>
+             	     <br>
+             	     <br>
+             	     <div class="sidebar-footer">
+                     <br>
+                     <h5><strong>Or login with:</strong></h5>
+                     <a class="button google circle" href="/auth/google?perform=login" id="google_login">
+                       <i class="fa fa-google-plus"></i>
+                     </a>
+                     <a class="button twitter circle" href="/auth/twitter?perform=login" id="twitter_login">
+                       <i class="fa fa-twitter"></i>
+                     </a>
+                   </div>
+                </div>
+             </form>
+          </div>
+        </div>
+    </div>
+  </section>
+</body>
+</html>

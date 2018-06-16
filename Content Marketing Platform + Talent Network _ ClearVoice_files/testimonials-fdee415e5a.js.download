@@ -1,0 +1,1 @@
+"use strict";tns({container:"#testimonials__slider",controls:!1,items:1,loop:!1,navContainer:"#testimonials__nav",gutter:52,responsive:{325:{nav:!1,navContainer:!1},375:{nav:!0}}});
