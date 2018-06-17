@@ -2,70 +2,70 @@
     font-family:Open Sans;
     font-style:normal;
     font-weight:400;
-    src:local("Open Sans"),local("OpenSans"),url(/webpack/font/OpenSans-Light.98b6233d6ac91b3538d60fee0ce3393b.woff2) format("woff2"),url(/webpack/font/OpenSans-Light.1bf71be111189e76987a4bb9b3115cb7.ttf) format("truetype");
+    src:local("Open Sans"),local("OpenSans"),url(../fonts/OpenSans-Light.98b6233d6ac91b3538d60fee0ce3393b.woff2) format("woff2"),url(../fonts/OpenSans-Light.1bf71be111189e76987a4bb9b3115cb7.ttf) format("truetype");
     unicode-range:u+00??,u+0131,u+0152-0153,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2212,u+2215,u+e0ff,u+effd,u+f000
 }
 @font-face{
     font-family:Open Sans;
     font-style:normal;
     font-weight:400;
-    src:local("Open Sans"),local("OpenSans"),url(/webpack/font/OpenSans.4124088fdd8c315a6d096b65b6cbf428.woff2) format("woff2"),url(/webpack/font/OpenSans-Regular.629a55a7e793da068dc580d184cc0e31.ttf) format("truetype");
+    src:local("Open Sans"),local("OpenSans"),url(../fonts/OpenSans.4124088fdd8c315a6d096b65b6cbf428.woff2) format("woff2"),url(../fonts/OpenSans-Regular.629a55a7e793da068dc580d184cc0e31.ttf) format("truetype");
     unicode-range:u+00??,u+0131,u+0152-0153,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2212,u+2215,u+e0ff,u+effd,u+f000
 }
 @font-face{
     font-family:Open Sans;
     font-style:normal;
     font-weight:600;
-    src:local("Open Sans Semibold"),local("OpenSans-Semibold"),url(/webpack/font/OpenSans-Semibold.d8411d8bb1d6060de4fee4f3a20973cc.woff2) format("woff2"),url(/webpack/font/OpenSans-Semibold.33f225b8f5f7d6b34a0926f58f96c1e9.ttf) format("truetype");
+    src:local("Open Sans Semibold"),local("OpenSans-Semibold"),url(../fonts/OpenSans-Semibold.d8411d8bb1d6060de4fee4f3a20973cc.woff2) format("woff2"),url(../fonts/OpenSans-Semibold.33f225b8f5f7d6b34a0926f58f96c1e9.ttf) format("truetype");
     unicode-range:u+00??,u+0131,u+0152-0153,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2212,u+2215,u+e0ff,u+effd,u+f000
 }
 @font-face{
     font-family:Open Sans;
     font-style:normal;
     font-weight:700;
-    src:local("Open Sans Bold"),local("OpenSans-Bold"),url(/webpack/font/OpenSans-Bold.8593a5a07cf620d4512fcb71cbcd07a6.woff2) format("woff2"),url(/webpack/font/OpenSans-Bold.50145685042b4df07a1fd19957275b81.ttf) format("truetype");
+    src:local("Open Sans Bold"),local("OpenSans-Bold"),url(../fonts/OpenSans-Bold.8593a5a07cf620d4512fcb71cbcd07a6.woff2) format("woff2"),url(../fonts/OpenSans-Bold.50145685042b4df07a1fd19957275b81.ttf) format("truetype");
     unicode-range:u+00??,u+0131,u+0152-0153,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2212,u+2215,u+e0ff,u+effd,u+f000
 }
 @font-face{
     font-family:Open Sans;
     font-style:italic;
     font-weight:400;
-    src:local("Open Sans Italic"),local("OpenSans-Italic"),url(/webpack/font/OpenSans-Italic.f588b35373729dd247d37254a8651d71.woff2) format("woff2"),url(/webpack/font/OpenSans-Italic.c7dcce084c445260a266f92db56f5517.ttf) format("truetype");
+    src:local("Open Sans Italic"),local("OpenSans-Italic"),url(../fonts/OpenSans-Italic.f588b35373729dd247d37254a8651d71.woff2) format("woff2"),url(../fonts/OpenSans-Italic.c7dcce084c445260a266f92db56f5517.ttf) format("truetype");
     unicode-range:u+00??,u+0131,u+0152-0153,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2212,u+2215,u+e0ff,u+effd,u+f000
 }
 @font-face{
     font-family:Open Sans;
     font-style:italic;
     font-weight:600;
-    src:local("Open Sans Semibold Italic"),local("OpenSans-SemiboldItalic"),url(/webpack/font/OpenSans-SemiboldItalic.d0e1630ee3ce6b3165d9784ef697f6dc.woff2) format("woff2"),url(/webpack/font/OpenSans-SemiboldItalic.73f7301a9cd7a086295401eefe0c998f.ttf) format("truetype");
+    src:local("Open Sans Semibold Italic"),local("OpenSans-SemiboldItalic"),url(../fonts/OpenSans-SemiboldItalic.d0e1630ee3ce6b3165d9784ef697f6dc.woff2) format("woff2"),url(../fonts/OpenSans-SemiboldItalic.73f7301a9cd7a086295401eefe0c998f.ttf) format("truetype");
     unicode-range:u+00??,u+0131,u+0152-0153,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2212,u+2215,u+e0ff,u+effd,u+f000
 }
 @font-face{
     font-family:Open Sans;
     font-style:italic;
     font-weight:700;
-    src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(/webpack/font/OpenSans-BoldItalic.0a2de967793f1117d220464bb973a442.woff2) format("woff2"),url(/webpack/font/OpenSans-BoldItalic.78b08a68d05d5fabb0b8effd51bf6ade.ttf) format("truetype");
+    src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(../fonts/OpenSans-BoldItalic.0a2de967793f1117d220464bb973a442.woff2) format("woff2"),url(../fonts/OpenSans-BoldItalic.78b08a68d05d5fabb0b8effd51bf6ade.ttf) format("truetype");
     unicode-range:u+00??,u+0131,u+0152-0153,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2212,u+2215,u+e0ff,u+effd,u+f000
 }
 @font-face{
     font-family:Montserrat;
     font-style:normal;
     font-weight:100;
-    src:local("Montserrat Extra Light"),local("Montserrat-ExtraLight"),url(/webpack/font/Montserrat-ExtraLight.3e8a48d9822e4c226f5551f25a4bff0a.woff2) format("woff2"),url(/webpack/font/Montserrat-ExtraLight.932e9cc0368b5e6076ab12a93c09ef3f.woff) format("woff");
+    src:local("Montserrat Extra Light"),local("Montserrat-ExtraLight"),url(../fonts/Montserrat-ExtraLight.3e8a48d9822e4c226f5551f25a4bff0a.woff2) format("woff2"),url(../fonts/Montserrat-ExtraLight.932e9cc0368b5e6076ab12a93c09ef3f.woff) format("woff");
     unicode-range:u+00??,u+0131,u+0152-0153,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2212,u+2215,u+e0ff,u+effd,u+f000
 }
 @font-face{
     font-family:Montserrat;
     font-style:normal;
     font-weight:400;
-    src:local("Montserrat Regular"),local("Montserrat-Regular"),url(/webpack/font/Montserrat-Regular.07689d4eaaa3d530d58826b5d7f84735.ttf) format("truetype");
+    src:local("Montserrat Regular"),local("Montserrat-Regular"),url(../fonts/Montserrat-Regular.07689d4eaaa3d530d58826b5d7f84735.ttf) format("truetype");
     unicode-range:u+00??,u+0131,u+0152-0153,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2212,u+2215,u+e0ff,u+effd,u+f000
 }
 @font-face{
     font-family:Montserrat;
     font-style:normal;
     font-weight:700;
-    src:local("Montserrat Bold"),local("Montserrat-Bold"),url(/webpack/font/Montserrat-Bold.d3085f686df272f9e1a267cc69b2d24f.ttf) format("truetype");
+    src:local("Montserrat Bold"),local("Montserrat-Bold"),url(../fonts/Montserrat-Bold.d3085f686df272f9e1a267cc69b2d24f.ttf) format("truetype");
     unicode-range:u+00??,u+0131,u+0152-0153,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2212,u+2215,u+e0ff,u+effd,u+f000
 }
 .flex-heading{
@@ -4033,8 +4033,8 @@ p{
 }
 @font-face{
     font-family:FontAwesome;
-    src:url(/webpack/font/fontawesome-webfont.674f50d287a8c48dc19ba404d20fe713.eot);
-    src:url(/webpack/font/fontawesome-webfont.674f50d287a8c48dc19ba404d20fe713.eot) format("embedded-opentype"),url(/webpack/font/fontawesome-webfont.af7ae505a9eed503f8b8e6982036873e.woff2) format("woff2"),url(/webpack/font/fontawesome-webfont.fee66e712a8a08eef5805a46892932ad.woff) format("woff"),url(/webpack/font/fontawesome-webfont.b06871f281fee6b241d60582ae9369b9.ttf) format("truetype"),urlurl(../img/fontawesome-webfont.912ec66d7572ff821749319396470bde.svg) format("svg");
+    src:url(../fonts/fontawesome-webfont.af7ae505a9eed503f8b8e6982036873e.woff2);
+    src:url(../fonts/fontawesome-webfont.af7ae505a9eed503f8b8e6982036873e.woff2) format("embedded-opentype"),url(../fonts/fontawesome-webfont.af7ae505a9eed503f8b8e6982036873e.woff2) format("woff2"),url(../fonts/fontawesome-webfont.fee66e712a8a08eef5805a46892932ad.woff) format("woff"),url(../fonts/fontawesome-webfont.b06871f281fee6b241d60582ae9369b9.ttf) format("truetype"),urlurl(../img/fontawesome-webfont.912ec66d7572ff821749319396470bde.svg) format("svg");
     font-weight:400;
     font-style:normal
 }
