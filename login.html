@@ -1,54 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <link rel="stylesheet" media="screen"  type="text/css" href="css/login.css">
   </link>
   <title>LoginPage</title>
 </head>
 <body>
+<style type="text/css">html.hs-messages-widget-open.hs-messages-mobile,html.hs-messages-widget-open.hs-messages-mobile body{height:100%!important;overflow:hidden!important;position:relative!important}html.hs-messages-widget-open.hs-messages-mobile body{margin:0!important}#hubspot-messages-iframe-container{display:initial!important;z-index:2147483647;position:fixed!important;bottom:0!important;right:0!important}#hubspot-messages-iframe-container.internal{z-index:1016}#hubspot-messages-iframe-container.internal iframe{min-width:108px}#hubspot-messages-iframe-container .shadow{display:initial!important;z-index:-1;position:absolute;width:0;height:0;bottom:0;right:0;content:""}#hubspot-messages-iframe-container .shadow.active{width:400px;height:400px;background:radial-gradient(ellipse at bottom right,rgba(29,39,54,.16) 0,rgba(29,39,54,0) 72%)}#hubspot-messages-iframe-container iframe{display:initial!important;width:100%!important;height:100%!important;border:none!important;position:absolute!important;bottom:0!important;right:0!important;background:transparent!important}</style>
+
+<div class="auth-wrapper login">
   <section id="login" class="content-wrapper">
     <div class="content">
       <header>
-       <h1 class="clearvoice">Clear Voice</h1>
-       <h2 class="loginheader">Welcome to ClearVoice</h2>
+        <h1 class="logo-badge">ClearVoice</h1>
+        <hgroup>
+          <h2>Welcome to ClearVoice</h2>
+        </hgroup>
       </header>
       <div class="row collapse">
-          <div class="columns medium-9 medium-centered">
-            <form action="process.php" method="POST">
-               <div>
-                   <label for="identity_email">Email</label>
-                   <input autofocus="autofocus" placeholder="Email" type="email" name="identity[email]" id="identity_email">
-               </div>
-               <br>
-               <div>
-                   <label><h1>Password</h1></label>
-                   <br>
-                   <input type="text" password = "password" placeholder="password">
-               </div>
-               <br>
-               <div>
-                 <button>Login</button>
-               </div>
-               <br>
-               <div>
-             	     <a href="forgotpassword.html"> forgot password? </a>
-             	     <br>
-             	     <br>
-             	     <div class="sidebar-footer">
-                     <br>
-                     <h5><strong>Or login with:</strong></h5>
-                     <a class="button google circle" href="/auth/google?perform=login" id="google_login">
-                       <i class="fa fa-google-plus"></i>
-                     </a>
-                     <a class="button twitter circle" href="/auth/twitter?perform=login" id="twitter_login">
-                       <i class="fa fa-twitter"></i>
-                     </a>
-                   </div>
-                </div>
-             </form>
-          </div>
+        <div class="columns medium-9 medium-centered">
+          <form action="/login" accept-charset="UTF-8" method="post">
+            <input name="utf8" type="hidden" value="✓">
+            <input type="hidden" name="authenticity_token" value="s4ySUBQ+LHevkZCmnhHiPV5hwa2Z8DeCLcXYjy3ULLbUL7S+lUCFX6VLMzZLsLFlptpoCMUXYmFL7/iDafEcWg==">
+
+            <div>
+              <label for="identity_email">Email</label>
+              <input autofocus="autofocus" placeholder="Email" type="email" name="identity[email]" id="identity_email"></div>
+            <div>
+              <label for="identity_password">Password</label>
+              <input autocomplete="off" placeholder="Password" type="password" name="identity[password]" id="identity_password"></div>
+            <div class="text-center">
+              <button name="button" type="submit" class="button expand login">Login</button>
+              <br>
+              <a class="form-support-link" href="/identities/password/new">Forgot your password?</a>
+            </div>
+          </form>
         </div>
+      </div>
+      <div class="sidebar-footer">
+        <br>
+        <h5> <strong>Or login with:</strong>
+        </h5>
+        <a class="button google circle" href="/auth/google?perform=login" id="google_login"> <i class="fa fa-google-plus"></i>
+        </a>
+        <a class="button twitter circle" href="/auth/twitter?perform=login" id="twitter_login"> <i class="fa fa-twitter"></i>
+        </a>
+      </div>
     </div>
   </section>
+  <section class="hero">
+    <div class="hero-container">
+      <h2 class="hero-title">Time to get to work!</h2>
+      <h3 class="hero-subtitle">Make more effective content, more efficiently.</h3>
+    </div>
+  </section>
+</div>
+
+<iframe id="intercom-frame" style="display: none;"></iframe>
+<div id="intercom-container" style="position: fixed; width: 0px; height: 0px; bottom: 0px; right: 0px; z-index: 2147483647;">
+  <!-- react-empty: 1 -->
+</div>
 </body>
 </html>
